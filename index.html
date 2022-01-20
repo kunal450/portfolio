@@ -768,7 +768,7 @@
           </svg>
         </div>
       </div>
-      <form name="contact" method="POST" data-netlify="true" onsubmit=" return checkValidity()">
+      <form name="contact" method="POST" data-netlify="true" onsubmit=" return ValidateEmail(document.contact.email)">
         <div>
           <span class="uppercase text-sm text-gray-600 font-bold">Full Name</span>
           <input name="Fname" class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
@@ -785,7 +785,7 @@
             class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
         </div>
         <div class="mt-8">
-          <button type="submit" onclick="ValidateEmail(document.contact.email)"; 
+          <button type="submit"; 
             class="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
             Send Message
           </button>
