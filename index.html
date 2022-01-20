@@ -37,7 +37,7 @@
               <div class="font-sans md:font-mono md:text-5xl text-base">a Coding Enthusiast.</div>
           </div> 
           <div class="mt-2">
-          <button class="rounded border-2 border-black font-serif md:text-3xl text-xs   bg-slate-300 transition duration-150 ease-in-out  hover:scale-110" ><a href="/KunalCollegeResume.pdf">Resume</a> 
+          <button class="rounded border-2 border-black font-serif md:text-3xl text-xs   bg-slate-300 transition duration-150 ease-in-out  hover:scale-110" ><a href="/">Resume</a> 
             
           </button>
           <button class="rounded border-2 border-black font-serif md:text-3xl text-xs ml-5 bg-slate-300 transition duration-150 ease-in-out hover:scale-110 ">
@@ -766,29 +766,29 @@
           </svg>
         </div>
       </div>
-      <div class="">
+      <form name="contact" method="POST" data-netlify="true">
         <div>
           <span class="uppercase text-sm text-gray-600 font-bold">Full Name</span>
-          <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+          <input name="Fname" class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
             type="text" placeholder="">
         </div>
         <div class="mt-8">
-          <span class="uppercase text-sm text-gray-600 font-bold">Email</span>
-          <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+          <span class="uppercase text-sm text-gray-600 font-bold" >Email</span>
+          <input name="email" class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
             type="text">
         </div>
         <div class="mt-8">
           <span class="uppercase text-sm text-gray-600 font-bold">Message</span>
-          <textarea
+          <textarea name="message"
             class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
         </div>
         <div class="mt-8">
-          <button
+          <button type="submit" 
             class="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
             Send Message
           </button>
         </div>
-      </div>
+      </form>
     </div>
  
 
